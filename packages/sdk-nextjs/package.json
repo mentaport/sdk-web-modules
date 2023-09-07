@@ -2,9 +2,9 @@
   "name": "@mentaport/sdk-nextjs",
   "version": "1.0.0",
   "description": "Next.js SDK for Mentaport.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
-    "src"
+    "dist"
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

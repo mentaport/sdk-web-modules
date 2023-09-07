@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import {handlerCallback} from '@mentaport/sdk-nextjs/callbacks';
+import {handlerCallback} from '@mentaport/sdk-nextjs';
 
 export default async function handler(
   req: NextApiRequest,
