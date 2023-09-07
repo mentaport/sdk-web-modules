@@ -1,0 +1,45 @@
+{
+  "name": "@mentaport/sdk-nextjs",
+  "version": "1.0.0",
+  "description": "Next.js SDK for Mentaport.",
+  "main": "index.js",
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "https://github.com/mentaport/sdk-web-modules",
+    "directory": "packages/sdk-nextjs",
+    "type": "git"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepack": "npm run build",
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "start:example": "npm run dev --prefix=example-app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "mentaport",
+    "sdk",
+    "next.js",
+    "react"
+  ],
+  "author": "Mentaport",
+  "license": "Mentaport",
+  "devDependencies": {
+    "@mentaport/core": "^1.1.2",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@mentaport/sdk-web-modules",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "https://github.com/mentaport/sdk-web-modules",
+    "type": "git"
+  },
+  "author": "Mentaport",
+  "license": "Mentaport",
+  "keywords": [
+    "mentaport",
+    "sdk",
+    "typescript",
+    "nft"
+  ],
+  "scripts":{
+    "prepack": "lerna run prepack",
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  }
+}
