@@ -1,4 +1,4 @@
-# Mentaports SDK Web Modules
+# Mentaport SDK Web Modules
 
 Mentaport provides modules for your favorite web frameworks.
 All our [tutorials](https://github.com/mentaport/sdk-web-tutorials) use these packages, so use them also as references.
