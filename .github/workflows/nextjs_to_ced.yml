@@ -3,14 +3,14 @@ name: nextjs_to_ced
 env:
   CED_ENVIRONMENT: development
   CED_CLI_TOKEN: ${{secrets.MERTHIN_CLI_TOKEN}}
-  CED_PROJECT_PATH: /packages/sdk-nextjs
+  CED_PROJECT_PATH: packages/sdk-nextjs
 
 on:
   push:
     branches:
       - main
     paths:
-      - "/packages/sdk-nextjs/**"
+      - 'packages/sdk-nextjs/**'
 
 jobs:
   deploy:
