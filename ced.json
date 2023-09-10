@@ -1,7 +1,7 @@
 {
   "projectId": "public-sdk-modules",
   "defaultEnvironment": "development",
-  "subsystemId": "sdk-nextjs",
+  "subsystemId": "lerna",
   "build": {
     "steps": [
       {

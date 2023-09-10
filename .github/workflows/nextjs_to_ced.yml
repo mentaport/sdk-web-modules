@@ -1,16 +1,16 @@
-name: nextjs_to_ced
+name: lerna_to_ced
 
 env:
   CED_ENVIRONMENT: development
   CED_CLI_TOKEN: ${{secrets.MERTHIN_CLI_TOKEN}}
-  CED_PROJECT_PATH: packages/sdk-nextjs
+  CED_PROJECT_PATH: ''
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'packages/sdk-nextjs/**'
+      - '**'
 
 jobs:
   deploy:
