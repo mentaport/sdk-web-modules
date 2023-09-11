@@ -6,16 +6,7 @@
     "filesWithConfigExpressions": [".npmrc"]
   },
   "build": {
-    "steps": [
-      {
-        "name": "Install",
-        "command": "npm install"
-      },
-      {
-        "name": "Build",
-        "command": "npm run build"
-      }
-    ],
-    "artifact": "./dist"
+    "steps": [],
+    "artifact": "./"
   }
 }
